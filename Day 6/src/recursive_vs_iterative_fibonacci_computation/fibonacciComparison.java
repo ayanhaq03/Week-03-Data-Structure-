@@ -3,7 +3,7 @@ package recursive_vs_iterative_fibonacci_computation;
 
 public class fibonacciComparison {
     public static void main(String[] args) {
-        int n = 30; // Change this value to test different Fibonacci numbers
+        int n = 30;
 
         // Measure recursive Fibonacci time
         long startTime = System.currentTimeMillis();

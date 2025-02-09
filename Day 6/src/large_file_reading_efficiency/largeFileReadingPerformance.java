@@ -5,7 +5,7 @@ import java.io.*;
 
 public class largeFileReadingPerformance{
     public static void main(String[] args) throws IOException {
-        String filePath = "samplefile.txt";  // Change this to the actual large file path
+        String filePath = "samplefile.txt";
 
         // Using FileReader (Character Stream)
         long startTime = System.currentTimeMillis();
